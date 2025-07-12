@@ -1,0 +1,19 @@
+[project]
+name = "pythonproject4"
+version = "0.1.0"
+description = "Job search with DB connection via HeadHunter API"
+authors = [
+    { name = "fantasticlion", email = "den20020805@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "requests>=2.32.4,<3.0.0",
+    "psycopg2-binary>=2.9.10,<3.0.0",
+    "python-dotenv>=1.1.1,<2.0.0"
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
